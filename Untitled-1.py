@@ -4,7 +4,9 @@ x2 =(random.randrange(1, 10))
 y1 =(random.randrange(1, 10))
 y2 =(random.randrange(1, 10))
 print (x1,y1,x2,y2)
+n=1
 while (x1!=x2 or y1!=y2) :
+    n+=1
     if (x1<x2):
         x1 =(random.randrange(x1+1, 10))
     elif (x1>x2):
@@ -15,3 +17,5 @@ while (x1!=x2 or y1!=y2) :
         y1 =(random.randrange(1, y1-1))
     print (x1,y1,x2,y2)
 print ('noice')
+print ('your tries :',n)
+
