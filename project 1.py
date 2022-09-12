@@ -15,3 +15,4 @@ while (x1!=x2 or y1!=y2) :
         y1 =(random.randrange(1, y1-1))
     print (x1,y1,x2,y2)
 print ('noice')
+
