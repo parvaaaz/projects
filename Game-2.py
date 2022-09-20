@@ -1,5 +1,7 @@
 import time
-print ("\n \n Hello :) \n Let\'s play hoop!!!!! \n You Have 5 seconds for each turn! - Type * instead of hoop! \n " )
+print (""""" Hello :) 
+ Let\'s play hoop!!!!! 
+  You Have 5 seconds for each turn! - Type * instead of hoop! \n """ )
 a = input ( " Please insert hoop cycle length : " ) 
 n = 1
 def Timers () :
